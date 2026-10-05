@@ -1,12 +1,12 @@
-# Proyecto Django — Balderrama López Samuel Alberto
+# Proyecto Django — Duarte Ruiz Sebastian
 
 Proyecto Django conectado a MySQL en Aiven y desplegado en Render.
 
 ## Producción
-https://miproyecto-django-blsa.onrender.com
+https://miproyecto-django-drs.onrender.com #### PENDIENTE CAMBIAR A NUEVO REPO
 
-- Servicios: https://miproyecto-django-blsa.onrender.com/servicios/
-- Panel de administración: https://miproyecto-django-blsa.onrender.com/admin/
+- Servicios: https://miproyecto-django-drs.onrender.com/servicios/
+- Panel de administración: https://miproyecto-django-drs.onrender.com/admin/
 
 ## Cómo correrlo localmente
 1. Crear y activar un entorno virtual
@@ -19,7 +19,7 @@ https://miproyecto-django-blsa.onrender.com
 ## Despliegue en Render
 - **Build Command:** `pip install -r requirements.txt && python manage.py collectstatic --noinput`
 - **Start Command:** `gunicorn miproyecto.wsgi`
-- **Variables de entorno:** `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`, `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=miproyecto-django-blsa.onrender.com`
+- **Variables de entorno:** `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`, `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=miproyecto-django-drs.onrender.com`
 
 ## Evidencia
 - Semana 3 (Django + MySQL en Aiven): capturas de `migrate`, tablas en Aiven y vistas locales en la carpeta [/evidencia](evidencia).
